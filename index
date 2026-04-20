@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Drone Accessories</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0a0f1c;
+  color: #fff;
+}
+
+/* 导航 */
+nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: rgba(0,0,0,0.6);
+  padding: 10px 30px;
+}
+
+nav a {
+  color: #00d9ff;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+/* 通用 */
+section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+h1, h2 {
+  color: #00d9ff;
+}
+
+/* 首页 */
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(135deg, #0a0f1c, #111a2e);
+}
+
+/* 卡片 */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background: #111a2e;
+  margin: 15px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+}
+
+/* 联系 */
+.contact {
+  background: #111a2e;
+}
+</style>
+
+</head>
+
+<body>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#products">Products</a>
+  <a href="#custom">Custom</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="home" class="hero">
+  <h1>Drone Accessories Solutions</h1>
+  <p>Standard Products + Custom Development</p>
+</section>
+
+<section id="products">
+  <h2>Standard Products</h2>
+  <div class="card-container">
+    <div class="card">Battery Modules</div>
+    <div class="card">Propellers</div>
+    <div class="card">Motor Components</div>
+    <div class="card">Flight Control Parts</div>
+  </div>
+</section>
+
+<section id="custom">
+  <h2>Custom Solutions</h2>
+  <p>We provide tailored drone accessory solutions based on your application needs.</p>
+  <p>✔ Structural Design</p>
+  <p>✔ Performance Optimization</p>
+  <p>✔ Mass Production Support</p>
+</section>
+
+<section>
+  <h2>Why Choose Us</h2>
+  <p>✔ High Precision Manufacturing</p>
+  <p>✔ Stable and Reliable Performance</p>
+  <p>✔ Fast Response to Custom Needs</p>
+</section>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>
+    We specialize in the development and manufacturing of drone accessories,
+    providing high-performance and reliable solutions for global clients.
+  </p>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contact Us</h2>
+  <p>Email: your@email.com</p>
+  <p>Phone: +123 456 789</p>
+</section>
+
+</body>
+</html>
